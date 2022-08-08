@@ -10,3 +10,23 @@ Content-Type: application/json
   "description": "Course NestJS",
   "price": 50
 }
+
+###
+PATCH http://localhost:3000/courses/1
+Content-Type: application/json
+
+{
+  "name": "Course NestJS",
+  "description": "Course NestJS",
+  "price": 50
+}
+
+###
+DELETE http://localhost:3000/courses/1
+Content-Type: application/json
+
+{
+  "name": "Course NestJS",
+  "description": "Course NestJS",
+  "price": 50
+}
